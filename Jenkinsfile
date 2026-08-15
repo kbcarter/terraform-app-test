@@ -1,4 +1,4 @@
-@Library('yul-it-jenkins-library') _
+@Library('yul-it-jenkins-library@main') _
 
 terraformPipeline(
   application: 'test-app',
