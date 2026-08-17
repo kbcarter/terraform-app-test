@@ -2,5 +2,5 @@
 
 terraformPipeline(
   application: 'test-app',
-  environments: ['dev']
+  environments: ['dev','test']
 )
