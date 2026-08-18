@@ -1,6 +1,8 @@
 @Library('lit-shared-lib') _
 
 dockerBuild(
-  dockerRepository: 'kbcarter/test-app'
+  dockerRepository: 'kbcarter/test-app',
+  tagStrategy: 'branch',
+  pushImage: false
 )
 
