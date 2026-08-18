@@ -1,4 +1,4 @@
-@Library('lit-shared-lib@feature/dockerPipeline') _
+@Library('lit-shared-lib') _
 
 dockerBuild(
   dockerRepository: 'kbcarter/test-app'
