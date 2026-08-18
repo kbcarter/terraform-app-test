@@ -1,0 +1,7 @@
+@Library('yul-it-jenkins-library@main') _
+
+dockerBuild(
+  dockerRepository: 'kbcarter/test-app'
+  pushImage: false
+)
+
