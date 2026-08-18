@@ -1,4 +1,4 @@
-@Library('yul-it-jenkins-library@main') _
+@Library('lit-jenkins-lib@feature/dockerPipeline') _
 
 dockerBuild(
   dockerRepository: 'kbcarter/test-app'
