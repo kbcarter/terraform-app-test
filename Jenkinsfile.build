@@ -2,6 +2,5 @@
 
 dockerBuild(
   dockerRepository: 'kbcarter/test-app'
-  pushImage: false
 )
 
